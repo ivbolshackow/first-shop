@@ -1,0 +1,344 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --sales-bkg-color: #4F4745;
+    --white: #FFFFFF;
+    --grey: #9F9F9F;
+    --light-grey: #F8F8F8;
+    --black-gray: #5D5D5D;
+    --red: #F26376;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.header {
+    background-color: var(--black);
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 62px 0;
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+    background-color: var(--light-pink);
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__subtitle {
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink)
+}
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 32px;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--sales-bkg-color);
+    text-transform: uppercase;
+}
+
+.sales__item--woman {
+    background-image: url(../img/sales-woman-bkg.jpg);
+}
+
+.sales__item--man {
+    background-image: url(../img/sales-man-bkg.jpg);
+}
+
+.sales__item--kids {
+    background-image: url(../img/sales-kids.jpg);
+}
+
+.sales__item--shoes {
+    background-image: url(../img/sales-accesories.jpg);
+    width: 100%;
+}
+
+.sales__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}
+
+.sales__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--dark-pink);
+}
+
+.catalog__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 65px 0 6px 0;
+}
+
+.catalog__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--grey);
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+    width: 360px;
+    height: 580px;
+    background-color: var(--light-grey);
+}
+
+.catalog__title-subject {
+    font-family: 'Lato';
+    font-style: normal;
+    padding: 25px 0 12px 18px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.catalog__caption {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 0 18px 16px;
+}
+
+.catalog__price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-pink);
+    padding: 0 0 20px 18px;
+}
+
+.catalog__button {
+    border: 1px solid var(--red);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    padding: 14px 34px 14px 34px;
+    text-decoration: none;
+    color: var(--red);
+    justify-content: center;
+    display: flex;
+    width: 211px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.aside {
+    background-color: var(--black);
+    margin: 95px 0 0 0;
+}
+
+.aside__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside__item {
+    flex-direction: column;
+    display: flex;
+    width: 360px;
+    min-height: 134px;
+    align-items: center;
+
+}
+
+.aside__ico {
+    align-items: center;
+    display: flex;
+    margin: 103px 0 28px 0;
+}
+
+.aside__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.aside__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--white);
+    margin: 16px 0 104px 0;
+}
+
+.footer__page {
+    background-image: url(../img/sea.jpeg);
+    height: 448px;
+}
+
+.footer__item {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin: 86px 0 0 0;
+}
+
+.footer__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 150px 0 0 0;
+}
+
+.footer__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.copy {
+    background-color: var(--black);
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}
