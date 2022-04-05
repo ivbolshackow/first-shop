@@ -55,8 +55,51 @@ body {
     margin: 0 41px 0 0;
 }
 
+.header__loupe {
+    background-color: var(--black);
+    border: 0ch;
+    fill: var(--light-grey)
+}
+
+.header__loupe:hover,
+.header__loupe:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header__loupe:active {
+    fill: var(--dark-pink);
+}
+
+.header__burger {
+    fill: var(--light-grey);
+    background-color: var(--black);
+    border: 0ch;
+}
+
+.header__burger:hover,
+.header__burger:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header__burger:active {
+    fill: var(--dark-pink);
+}
+
 .header__link {
     margin: 0 0 0 34px;
+}
+
+.header__link:hover,
+.header__link:focus {
+    background: #53ea93;
+}
+
+.header__burger:active {
+    fill: var(--dark-pink);
 }
 
 .header__nav {
@@ -324,6 +367,64 @@ body {
     line-height: 167.2%;
     text-transform: uppercase;
     text-align: center;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 0 0;
+}
+
+.input__border {
+    width: 250px;
+    height: 50px;
+    background-color: #E1E1E1;
+    -webkit-border-top-left-radius: 500px;
+    -webkit-border-bottom-left-radius: 500px;
+    -moz-border-radius-topleft: 500px;
+    -moz-border-radius-bottomleft: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border: 0px;
+    padding: 0 0 0 22px;
+}
+
+.button__border {
+    width: 100px;
+    height: 50px;
+    background-color: var(--dark-pink);
+    -webkit-border-top-right-radius: 500px;
+    -webkit-border-bottom-right-radius: 500px;
+    -moz-border-radius-topright: 500px;
+    -moz-border-radius-bottomright: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border: 0px;
+    margin-left: -5px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.button__border:hover,
+.button__border:focus {
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+}
+
+.button__border:active {
+    opacity: 0.8;
+}
+
+.text__button {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
 }
 
 .copy {
