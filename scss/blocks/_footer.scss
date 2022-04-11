@@ -1,0 +1,156 @@
+.footer__page {
+    background-image: url(../img/sea.jpeg);
+    height: 448px;
+}
+
+.footer__item {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin: 86px 0 0 0;
+}
+
+.footer__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer__ico-face {
+    padding: 0 0 20px 0;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 150px 0 0 0;
+}
+
+.footer__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 0 0;
+}
+
+.input__border {
+    width: 250px;
+    height: 50px;
+    background-color: #E1E1E1;
+    -webkit-border-top-left-radius: 500px;
+    -webkit-border-bottom-left-radius: 500px;
+    -moz-border-radius-topleft: 500px;
+    -moz-border-radius-bottomleft: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border: 0px;
+    padding: 0 0 0 22px;
+}
+
+.button__border {
+    width: 100px;
+    height: 50px;
+    background-color: $dark-pink;
+    -webkit-border-top-right-radius: 500px;
+    -webkit-border-bottom-right-radius: 500px;
+    -moz-border-radius-topright: 500px;
+    -moz-border-radius-bottomright: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border: 0px;
+    margin-left: -5px;
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.button__border:hover,
+.button__border:focus {
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+}
+
+.button__border:active {
+    opacity: 0.9;
+}
+
+.text__button {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer__link {
+    display: flex;
+    background-color: $black;
+}
+
+.footer__ico {
+    background-color: $black;
+}
+
+.footer__svg {
+    fill: $white;
+    margin: 24px 0 23px 7px;
+}
+
+.footer__svg:hover,
+.footer__svg:focus {
+    fill: $dark-pink;
+    background-color: $black;
+}
+
+.footer__svg:active {
+    opacity: 0, 6;
+}
+
+.copy {
+    background-color: $black;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: space-between;
+    fill: $black;
+}
+
+.copy__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+    margin: 30px 0 0 0;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    background-color: $red;
+
+}

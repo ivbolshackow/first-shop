@@ -1,0 +1,46 @@
+.aside {
+    background-color: $black;
+    margin: 95px 0 0 0;
+
+}
+
+.aside__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside__item {
+    flex-direction: column;
+    display: flex;
+    width: 360px;
+    min-height: 134px;
+    align-items: center;
+
+}
+
+.aside__ico {
+    align-items: center;
+    display: flex;
+    margin: 103px 0 28px 0;
+}
+
+.aside__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: $white;
+}
+
+.aside__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: $white;
+    margin: 16px 0 104px 0;
+}
