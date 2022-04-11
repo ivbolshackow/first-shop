@@ -1,0 +1,87 @@
+.header {
+    background-color: $black;
+    position: relative;
+    height: 75px;
+}
+
+
+
+.header__icon {
+    margin: 0 41px 0 0;
+
+
+}
+
+.header__loupe {
+    background-color: $black;
+    border: 0ch;
+    fill: $light-grey;
+}
+
+.header__loupe:hover,
+.header__loupe:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header__loupe:active {
+    fill: $dark-pink;
+}
+
+/*
+.header__logo {}
+*/
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    min-height: 40px;
+    align-items: center;
+}
+
+.header__burger {
+    fill: $white;
+    background-color: $black;
+    border: 0;
+}
+
+.header__burger:hover,
+.header__burger:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header__item-2 {
+    display: flex;
+    fill: $light-grey;
+    background-color: $black;
+}
+
+.header__item-2:hover,
+.header__item-2:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+.header__loupe:hover,
+.header__loupe:focus {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header__loupe:active {
+    fill: $dark-pink;
+}
+
+
+
+.header__link {
+    margin: 0 0 0 34px;
+    border: 0px;
+}
