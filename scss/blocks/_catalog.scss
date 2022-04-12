@@ -6,6 +6,10 @@
     line-height: 36px;
     text-align: center;
     margin: 65px 0 6px 0;
+
+    @include tablet {
+        margin: 20px 0 0 0;
+    }
 }
 
 .catalog__text {
@@ -16,6 +20,14 @@
     color: $grey;
     text-align: center;
     margin: 0 0 48px 0;
+
+    @include tablet {
+        margin: 0 0 73px 0;
+    }
+
+    @include mobile {
+        margin: 0 0 64px 0;
+    }
 }
 
 .catalog__list {
@@ -37,9 +49,11 @@
     width: 360px;
     height: 580px;
     background-color: $light-grey;
-
-
     position: relative;
+
+    @include tablet {
+        margin: 0 0 15px 0;
+    }
 }
 
 .overlay {
@@ -109,7 +123,6 @@
     display: flex;
     background-color: $white;
     margin: 0 auto;
-    margin-top: 18px;
 }
 
 .catalog__button-title {

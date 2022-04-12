@@ -2,20 +2,19 @@
     background-color: $black;
     position: relative;
     height: 75px;
-}
-
-
-
-.header__icon {
-    margin: 0 41px 0 0;
-
 
 }
+
+.header__logo {
+    display: flex;
+}
+
 
 .header__loupe {
     background-color: $black;
     border: 0ch;
     fill: $light-grey;
+    margin: 0 0 0 41px;
 }
 
 .header__loupe:hover,
@@ -27,6 +26,41 @@
 
 .header__loupe:active {
     fill: $dark-pink;
+}
+
+.header__icon {
+    width: 44px;
+    height: 38px;
+}
+
+.header__search {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 35px;
+    border: none;
+    /*  outline: 1px solid black; */
+    background: transparent;
+}
+
+
+.header__form {
+    position: relative;
+    margin-left: -30px;
+}
+
+.header__search:hover {
+    outline: 1px solid #F1E4E6;
+}
+
+.header__form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    left: 3px;
+    background-image: url("../img/icon/loupe.svg");
+    background-size: 26px 26px;
 }
 
 /*
@@ -57,6 +91,10 @@
     display: flex;
     fill: $light-grey;
     background-color: $black;
+
+    @include mobile {
+        display: none;
+    }
 }
 
 .header__item-2:hover,
