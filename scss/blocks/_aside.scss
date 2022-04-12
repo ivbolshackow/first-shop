@@ -2,12 +2,23 @@
     background-color: $black;
     margin: 95px 0 0 0;
 
+    @include tablet {
+        margin: 64px 0 0 0;
+    }
+
+    @include mobile {
+        margin: 96px 0 0 0;
+    }
 }
 
 .aside__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablet {
+        flex-direction: column;
+    }
 }
 
 .aside__item {
@@ -17,12 +28,18 @@
     min-height: 134px;
     align-items: center;
 
+
+
 }
 
 .aside__ico {
     align-items: center;
     display: flex;
     margin: 103px 0 28px 0;
+
+    @include tablet {
+        margin: 48px 0 0 0;
+    }
 }
 
 .aside__title {
@@ -42,5 +59,16 @@
     line-height: 17px;
     text-align: center;
     color: $white;
-    margin: 16px 0 104px 0;
+    margin: 16px 0 0 0;
+}
+
+.aside__text-last {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: $white;
+    margin: 16px 0 64px 0;
 }
