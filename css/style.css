@@ -159,7 +159,7 @@ body {
   margin: -1px;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .container {
     width: 734px;
   }
@@ -389,7 +389,7 @@ body {
   margin: 0 0 62px 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .brand {
     margin: 0 0 18px 0;
   }
@@ -401,7 +401,7 @@ body {
   }
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .brand__img {
     width: 50%;
     min-height: 370px;
@@ -430,7 +430,7 @@ body {
   background-color: #F1E4E6;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .brand__title-wrp {
     padding: 0 0 0 68px;
   }
@@ -439,6 +439,10 @@ body {
 @media (max-width: 767px) {
   .brand__title-wrp {
     height: 363px;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -454,7 +458,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .brand__title {
     font-size: 52px;
     line-height: 44px;
@@ -483,7 +487,7 @@ body {
   font-style: normal;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .brand__subtitle {
     font-size: 28px;
     line-height: 24px;
@@ -540,7 +544,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sales__item {
     height: 167px;
     width: 232px;
@@ -570,10 +574,10 @@ body {
 
 .sales__item--shoes {
   background-image: url(../img/sales-accesories.jpg);
-  width: 735px;
+  width: 100%;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sales__item--shoes {
     height: 116px;
     margin: 0 0 135px 0;
@@ -610,7 +614,7 @@ body {
   margin: 65px 0 6px 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .catalog__title {
     margin: 20px 0 0 0;
   }
@@ -626,7 +630,7 @@ body {
   margin: 0 0 48px 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .catalog__text {
     margin: 0 0 73px 0;
   }
@@ -673,7 +677,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .catalog__item {
     margin: 0 0 15px 0;
   }
@@ -770,6 +774,8 @@ body {
 .catalog__button:focus {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  -webkit-animation: flip-scale-2-hor-top 0.5s linear both;
+  animation: flip-scale-2-hor-top 0.5s linear both;
 }
 
 .catalog__button:active {
@@ -781,7 +787,7 @@ body {
   margin: 95px 0 0 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .aside {
     margin: 64px 0 0 0;
   }
@@ -800,12 +806,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .aside__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -839,7 +842,7 @@ body {
   margin: 103px 0 28px 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .aside__ico {
     margin: 48px 0 0 0;
   }
@@ -891,7 +894,7 @@ body {
           justify-content: space-between;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .footer__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -918,7 +921,7 @@ body {
   margin: 86px 0 0 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .footer__author {
     margin: 53px 0 0 0;
   }
@@ -946,7 +949,7 @@ body {
   margin: 150px 0 0 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .footer__title {
     margin: 48px 0 0 0;
   }
@@ -1212,7 +1215,7 @@ body {
   margin: 0 0 0 128px;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sidebar {
     margin: 0 0 0 44px;
   }
@@ -1235,7 +1238,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sidebar__subtitle {
     font-size: 16px;
     font-weight: 300;
@@ -1253,7 +1256,7 @@ body {
   margin: 0 0 21px 0;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sidebar__text {
     font-family: Lato;
     font-size: 16px;
@@ -1280,7 +1283,7 @@ body {
   padding: 0 0 0 43px;
 }
 
-@media (max-width: 1599px) {
+@media (max-width: 1140px) {
   .sidebar__item {
     font-size: 16px;
     font-weight: 300;
