@@ -451,6 +451,7 @@ body {
   font-weight: 900;
   line-height: 58px;
   text-transform: uppercase;
+  padding-left: 16px;
   font-size: 48px;
   line-height: 58px;
   font-weight: 900;
@@ -520,6 +521,14 @@ body {
       flex-wrap: wrap;
 }
 
+@media (max-width: 767px) {
+  .sales__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .sales__item {
   padding: 20px;
   display: -webkit-box;
@@ -587,6 +596,7 @@ body {
 @media (max-width: 767px) {
   .sales__item--shoes {
     margin: 0 0 64px 0;
+    width: 344px;
   }
 }
 
@@ -774,8 +784,6 @@ body {
 .catalog__button:focus {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-animation: flip-scale-2-hor-top 0.5s linear both;
-  animation: flip-scale-2-hor-top 0.5s linear both;
 }
 
 .catalog__button:active {

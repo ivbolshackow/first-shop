@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include mobile {
+        justify-content: center;
+    }
 }
 
 .sales__item {
@@ -53,6 +57,7 @@
 
     @include mobile {
         margin: 0 0 64px 0;
+        width: 344px;
     }
 }
 

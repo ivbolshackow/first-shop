@@ -23,7 +23,6 @@
     }
 }
 
-
 .brand__title-wrp {
     flex-grow: 1;
     padding: 0 0 0 92px;
@@ -48,6 +47,7 @@
     font-weight: 900;
     line-height: 58px;
     text-transform: uppercase;
+    padding-left: 16px;
 
     @include font(48px, 58px, 900);
     text-transform: uppercase;
